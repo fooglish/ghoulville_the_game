@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ghoulville</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    </head>
+    <body>
+        <header class="main-header">
+                <nav class="main-navigation">
+                    <ul>
+                        <li>
+                            <a href="#">Информация</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">Поддержать</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#popup1">Связаться с нами</a>
+                            <div id="popup1" class="overlay">
+                                <div class="popup">
+                                    
+                                    <a class="close" href="#">&times;</a>
+                                    <div class="content">
+                                        <div class="form-style-6">
+                                            <h1>Напишите нам!</h1>
+                                            <form>
+                                            <input type="text" name="field1" placeholder="Имя" />
+                                            <input type="email" name="field2" placeholder="Ваш email" />
+                                            <textarea name="field3" placeholder="Ваше сообщение"></textarea>
+                                            <input type="submit" value="Отправить" />
+                                            </form>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a class="btn_apply" href="">Заявка на ЗБТ</a>
+                            
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+        <!-- начало главного контента-->
+        <main class="">
+            <div class="index-logo">
+                <img src="img/logo.jpg" alt="Ghouls are coming" class="logo">
+            </div>
+            <h3 class="ftrs">Особенности игры</h3>
+            <div class="features">
+                <div class="features-item">
+                    <p class="features-name">Вы - главный детектив<p>
+                    <p class="ftr-cont">Тихий город Гулвилл и его тайны</p>
+                </div>
+                <div class="features-item">
+                    <p class="features-name">Глубокий сюжет</p>
+                    <p class="ftr-cont"><q>10/10, о Господи, 10/10!</q> &#169;Hideo Kojima</p>
+                </div>
+                <div class="features-item">
+                    <p class="features-name">Атмосферный хоррор</p>
+                    <p class="ftr-cont">Отличный саундтрек, ambient и объёмный звук</p>
+                </div>
+            </div>
+            <div class="index-content">
+                <div class="index-content-left">
+                    <h3 class="index-content-title">Новости</h3>
+                    <div class="news-preview">
+                        <ul>
+                            <li>
+                                <p><span class="article">Ваши предложения по улучшению игры</span> <br>
+                                <a href="mailto:fooglish@gmail.com" class="btn">Отправить заявку</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p><span class="article">Конференция геймдева</span></p>
+                            </li>
+                            <li>
+                                <p><span class="article">Археологические раскопки в Румынии</span></p>
+                            </li>
+                        </ul>
+                        <a class="news pulse btn" href="#">Все новости</a>
+                    </div>
+                </div>
+                <div class="index-content-right">
+                    <h3 class="index-content-title photo">Фотогалерея</h3>
+                    <div class="gallery">
+                        <figure class="gallery-content">
+                            <img src="img/id-114.jpg" alt="creepy_pic1" class="ghoul">
+                        </figure>
+                        <button class="btn gallery-prev" type="button">Назад</button>
+                        <button class="btn gallery-next" type="button">Вперед</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="cbt">
+                <div class="cbt-apply">
+                    <h3 class="cbtheader">Принять участие в ЗБТ</h3>
+                    <span>
+                        <button class="btn apply">
+                        <a href="#apply-CBT">Подать заявку</a>
+                        </button>
+                    </span>
+                        <span class="form apply">
+                            <form id="apply-CBT" action="" method="post">
+                                <input type="text" name="e-mail" value="" placeholder="Ваш e-mail">
+                                <input class="btn" type="submit" value="Отправить">
+                            </form>
+                        </span>             
+                        
+                </div>
+            </div>
+        </main>
+        <footer class="main-footer">
+            <div class="">
+                <div class="footer-social">
+                    <p>Социальные сети</p>
+                    <a class="vk soc" href="#"><img src="icons/vk1.png"></a>
+                    <a class="fb soc" href="#"><img src="icons/fb1.png"></a>
+                    <a class="inst1 soc" href="#"><img src="icons/inst1.png"></a>
+                </div>
+                <br class="clrfx">
+                <div class="footer-contacts">
+                        Website by fooglish<br>
+                    Sosooha inc. game developement<br>
+                        Адрес: Москва, Петровско-Разумовская, ул. Пушкина д. Колотушкина<br>
+                        Телефон: +79175556537
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
